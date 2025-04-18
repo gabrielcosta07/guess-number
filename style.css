@@ -9,6 +9,8 @@
 body {
   font-family: 'Lekton', cursive;
   font-size: 20px;
+  background-color: #E38B94;
+
 }
 
 h1 {
@@ -31,7 +33,7 @@ h1 {
 }
 
 .game, form{
-  background-color: #FFFccc;
+  background-color: #fcf48f;
   padding: 1.8rem;
 
   display: flex;
