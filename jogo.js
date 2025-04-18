@@ -45,7 +45,7 @@ const jogoAdivinha = {
     
     // Vai comparar o numero que a pessoa jogou com o numero sorteado e se acertou aparecer a msg   
     if (valorChute === numeroSorteado) {
-      status.innerHTML = '<span style="color:#00C853">Parabéns, você acertou!!</span>';
+      status.innerHTML = '<span style="font-size:1.6rem;color:#6A0DAD">Parabéns, você acertou!!</span>';
       chute.disabled = true;
       btnVerifica.textContent = "Jogue Novamente!";
       btnVerifica.addEventListener('click', reiniciar);
